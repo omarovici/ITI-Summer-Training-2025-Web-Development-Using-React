@@ -73,11 +73,11 @@ body {
 
 fieldset {
     border: 2px solid #ccc;
-  border-radius: 8px;
-  padding: 1em 1.5em;
-  margin-bottom: 2em;
-  background-color: transparent;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 
 }
 
@@ -88,31 +88,26 @@ fieldset {
 }
 
 .regform fieldset {
-  border: 2px solid #dfd8d8;
-  border-radius: 8px;
-  padding: 1em 1.5em;
-  margin-bottom: 2em;
+    border: 2px solid #dfd8d8;
+    border-radius: 8px;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
 }
 
 legend {
-  font-weight: bold;
-  padding: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 10px;
 }
 label {
-  display: block;
-  margin-bottom: 0.3em;
-  font-weight: 500;
+    display: block;
+    margin-bottom: 0.3em;
+    font-weight: 500;
 }
-input[type="name"],
-input[type="email"],
-input[type="password"],
-input[type="email"],
-input[type="date"],
-input[type="date"],
-textarea, select {
-  width: 100%;
-  padding: 0.7em;
-  margin-bottom: 1em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+input, textarea, select {
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
