@@ -1,0 +1,70 @@
+*{
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background-image: url("pexels-maxandrey-1254736.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+.card {
+    background-color: #C5C4C8;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1opx;
+    margin-top: 50px;
+    border: 5px solid #B48388;
+    font-size: 37px;
+    color: #5D8596;
+}
+
+img {
+    margin-top: 70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+fieldset {
+    margin-top: 40px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.regform {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.regform fieldset {
+    border: 2px solid #dfd8d8;
+    border-radius: 8px;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+label {
+    display: block;
+    margin-bottom: 0.3em;
+    font-weight: 500;
+}
+input, textarea, select {
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
