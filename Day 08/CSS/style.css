@@ -10,7 +10,8 @@
     font-style: normal;
 }
 
-h1 {
+h1,
+h2 {
     font-family: "Alegreya", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -28,8 +29,7 @@ h1 {
 }
 
 .container {
-    width: 1240px;
-    height: 40px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -56,7 +56,7 @@ ul {
     list-style: none;
 }
 
-.header {
+.header .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -94,7 +94,7 @@ a {
     justify-content: flex-end;
     text-align: center;
     height: 100%;
-    margin-top: 450px;
+    margin-top: 150px;
     color: white;
 }
 
@@ -155,4 +155,105 @@ button.learn {
 .header-buttons button.learn:hover {
     background-color: white;
     color: black;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.whoweare {
+    background-color: white;
+    margin: 40px 0px;
+
+}
+
+.whoweare .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.whoweare .whoimage {
+    width: 50%;
+    padding-right: 25px;
+}
+
+.whoweare .whoimage img {
+    height: 560px;
+    width: 596px;
+
+}
+
+.whoweare .whocontent {
+    margin-top: 50px;
+    width: 50%;
+    padding-left: 25px;
+}
+
+.whoweare .whocontent h2,
+.ourlocation .ourloccont h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #303030;
+}
+
+.whoweare .whocontent p,
+.ourlocation .ourloccont p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #686868;
+    line-height: 2.3;
+}
+
+.whocontent li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 17px;
+    color: #686868;
+}
+
+.whocontent li i {
+    border-radius: 50%;
+    font-size: 20px;
+    color: #8E7754;
+    width: 44px;
+    height: 44px;
+    border: 1.8px solid #DEDEDE;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whocontent ul {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+
+
+.ourlocimg {
+    width: 48%;
+    padding-left: 45px;
+}
+
+.ourlocation {
+    background-color: #F8F8F8;
+}
+
+.ourlocation .ourlocimg img {
+    width: 100%;
+}
+
+.ourlocation .container {
+    display: flex;
+    align-items: center;
+}
+
+.ourloccont {
+    width: 50%;
+    padding-right: 35px;
 }
