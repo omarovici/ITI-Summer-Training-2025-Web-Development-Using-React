@@ -116,9 +116,10 @@ a {
 }
 
 .container .header-content p.bak {
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 28px;
     font-size: 22px;
+    letter-spacing: 0.8px;
+    line-height: 45px;
 }
 
 .header-buttons {
